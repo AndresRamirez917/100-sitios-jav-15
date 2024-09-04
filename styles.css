@@ -127,6 +127,8 @@ button:hover {
 
 
 
+
+
 #showcase {
     background: #000;
     color: #fff;
@@ -170,6 +172,11 @@ button:hover {
 .card-services img {
     width: 30%;
     padding: 20px;
+}
+
+.card-row2 img {
+    width: 50%;
+   
 }
 
 /* contact */
