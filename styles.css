@@ -108,6 +108,7 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 50px;
     margin-top: 50px;
+    padding-top: 1rem;
 }
 
 .card p {
@@ -124,10 +125,6 @@ button:hover {
 .card img {
     width: 75%;
 }
-
-
-
-
 
 #showcase {
     background: #000;
