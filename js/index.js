@@ -26,6 +26,7 @@ async function getData() {
                 <div class="card-services card-1">
                     <img src="${element.image}">
                     <h2>${element.name}</h2>
+                    <h2>${element.status}</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate explicabo nobis consequatur molestiae nihil error doloribus cupiditate doloremque.</p>
                 </div>
                       
