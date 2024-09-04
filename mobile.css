@@ -1,0 +1,33 @@
+.navbar .logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#showcase p {
+    text-align: center;
+}
+
+.card {
+    float: none;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-services {
+    float: none;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

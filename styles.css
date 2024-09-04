@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    line-height: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 40px;
+    padding: 50px;
+}
+
+.display-1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    padding: 50px;
+}
+
+.navbar {
+    background: #000;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.navbar ul {
+    float: right;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500
+}
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background: #6b6767;
+    color: white;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #9c9b9b;
+}
+
+.card {
+    background: #fff;
+    float: left;
+    width: 20%;
+    border: 1px solid #000;
+    margin-left:50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card p {
+    color: #000;
+    font-weight: bold;
+}
+
+.card-row {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.card img {
+    width: 75%;
+}
+
+
+
+#showcase {
+    background: #000;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.card-services {
+    background: #000;
+    float: left;
+    width: 20%;
+    border: 1px solid #000;
+    margin-left:50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.card-services h2 {
+    font-size: 20px !important;
+}
+
+/* about */
+
+#about {
+    margin-bottom: 50px;
+}
+
+/* services */
+
+#services {
+    padding-bottom: 50px;
+}
+
+.card-services h2 {
+    text-align: left !important;
+}
+
+.card-services img {
+    width: 30%;
+    padding: 20px;
+}
+
+/* contact */
+#contact {
+    background: #000;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+
+#footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
